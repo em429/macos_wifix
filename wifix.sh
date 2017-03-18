@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # fixes that sodding wifi when on fragile networks (macOS)
 
 sudo ifconfig en0 down
