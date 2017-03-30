@@ -7,3 +7,4 @@ pid[0]=$!
 sleep 5
 trap "kill ${pid[0]}; exit 1" INT
 sudo ifconfig en0 up
+echo 'Wifixed'
